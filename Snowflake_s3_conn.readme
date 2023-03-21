@@ -1,0 +1,29 @@
+-- 1) Storage Integration
+
+CREATE STORAGE INTEGRATION SAN_C19_INTEGRATION
+  TYPE = EXTERNAL_STAGE
+  STORAGE_PROVIDER = 'S3'
+  ENABLED = TRUE
+  STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::026259293642:role/snf_user'
+  STORAGE_ALLOWED_LOCATIONS = ('s3://san-test-buckets/','s3://covid19-test-bkts/');
+
+
+desc integration SAN_S3_INTEGRATION;
+
+select current_account;
+
+-- 2) create FILE_FORMAT
+
+create or replace file format san_ds.san_sch.data_csv_format
+type = CSV;
+
+desc file format san_ds.san_sch.data_csv_format;
+
+-- 3) Create STAGE
+create or replace stage san_ds.san_sch.csvstage
+STORAGE_INTEGRATION = SAN_C19_INTEGRATION
+url='s3://covid19-test-bkts/'
+file_format = san_ds.san_sch.data_csv_format;
+
+-- 4) list stage
+list @san_ds.san_sch.csvstage;
