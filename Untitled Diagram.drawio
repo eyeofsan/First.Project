@@ -1,9 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T06:49:51.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.1" etag="y86XfENSr5zAhH_8UXUb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-25T07:00:03.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="7Wkd7EbZm1XpJWPzBCIK" version="21.1.1" type="github">
   <diagram name="Page-1" id="WMS3F-lukYiXaNPnLL7b">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <object label="Amazon&lt;br&gt;S3" id="5-ZRb3mL07Nn7zdXuAU--2">
+          <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontStyle=1" vertex="1" parent="1">
+            <mxGeometry x="100" y="100" width="60" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="5-ZRb3mL07Nn7zdXuAU--11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="270" width="380" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZRb3mL07Nn7zdXuAU--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5-ZRb3mL07Nn7zdXuAU--12" target="5-ZRb3mL07Nn7zdXuAU--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZRb3mL07Nn7zdXuAU--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5-ZRb3mL07Nn7zdXuAU--12" target="5-ZRb3mL07Nn7zdXuAU--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZRb3mL07Nn7zdXuAU--12" value="Transform&amp;nbsp;&lt;br&gt;data" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZRb3mL07Nn7zdXuAU--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5-ZRb3mL07Nn7zdXuAU--13" target="5-ZRb3mL07Nn7zdXuAU--18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-ZRb3mL07Nn7zdXuAU--13" value="Load&lt;br&gt;data" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZRb3mL07Nn7zdXuAU--18" value="&lt;b&gt;Snowflake&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="700" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZRb3mL07Nn7zdXuAU--20" value="&lt;b&gt;Python Script&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5-ZRb3mL07Nn7zdXuAU--21" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;San_First_Project&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="100" width="90" height="25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
