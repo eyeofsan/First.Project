@@ -8,3 +8,6 @@ This is a self understanding project involving below tools
 being extracted from S3 via python and some basic transformation like  replacig null values, filtering over the  south india region and sending these data as json records to the snowflake stg table
 later in snowflake these json records are being flattened for further storage.
 
+Files involved in this Project:
+1) Config file - 
+2) Python script - 
